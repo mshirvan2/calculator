@@ -1,0 +1,21 @@
+.keypad{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#outline{
+    width: 300px;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+#display-screen{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height:50px;
+    border:2px solid gray;
+    margin-bottom: 15px;
+    
+    
+}
